@@ -25,42 +25,42 @@
             </div>
             <div class="form-container">
                 <div>Let's do this!</div>
-                <form action="" class="form">
+                <form action="" class="form" id="myForm">
                     <div class="form-row">
                         <div class="form-col">
                             <label for="user_firstName">FIRST NAME</label>
-                            <input id="user_firstName" type="text"></input>
+                            <input id="user_firstName" type="text" required></input>
                         </div>
                         <div class="form-col">
                             <label for="user_lastName">LAST NAME</label>
-                            <input id='user_lastName' type="text"></input>
+                            <input id='user_lastName' type="text" required></input>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-col">
                             <label for='user_email'>EMAIL</label>
-                            <input id='user_email' type="email">
+                            <input id='user_email' type="email" required>
                         </div>
                         <div class="form-col">
                             <label for="user_tel">PHONE NUMBER</label>
-                            <input id='user_tel' type="tel">
+                            <input id='user_tel' type="tel" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-col">
                             <label for="user_password">PASSWORD</label>
-                            <input type="password" id="user_password">
+                            <input type="password" id="user_password" required>
                         </div>
                         <div class="form-col">
                             <label for="confirm_password">CONFIMR PASSWORD</label>
-                            <input type="text" id="confirm_password">
+                            <input type="text" id="confirm_password" required>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="right-footer">
-                <button class="accountMake">Create account</button>
-                <div class="login">Already have an account? <a href="">Log in</a></div>
+                <button class="accountMake" type="submit" form="myForm">Create account</button>
+                <div class="login" >Already have an account? <a href="">Log in</a></div>
             </div>
         </div>
     </div>
