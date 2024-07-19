@@ -147,10 +147,14 @@ button{
     width: fit-content;
 }
 
-.header,
-.form-container,
-.right-footer{
+.right-container>div{
 padding-left:5%;
 padding-right:15%;
 }
 
+input:hover{
+    border:solid rgb(71, 125, 196) 2px;
+}
+button:hover{
+    background-color: rgb(8, 65, 8, 0.5);
+}
