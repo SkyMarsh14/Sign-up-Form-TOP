@@ -24,23 +24,44 @@
                 <div class='secondHeader'>You <i>know </i>you want to.</div>
             </div>
             <div class="form-container">
-                <span>Let's do this!</span>
-                <form action="">
-                    <label for="user_firstName">FIRST NAME</label>
-                    <input type="text" id="user_firstName">
-                    <label for="user_lastName">LAST NAME</label>
-                    <input id='user_lastName' type="text"></input>
-                    <label for='user_email'>EMAIL</label>
-                    <input id='user_email' type="email">
-                    <label for="user_tel">PHONE NUMBER</label>
-                    <input id='user_tel' type="tel">
-                    <label for="user_password">PASSWORD</label>
-                    <input type="password">
-                    <label for="confirm_password">CONFIMR PASSWORD</label>
-                    <input type="text">
+                <div>Let's do this!</div>
+                <form action="" class="form">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label for="user_firstName">FIRST NAME</label>
+                            <input id="user_firstName" type="text"></input>
+                        </div>
+                        <div class="form-col">
+                            <label for="user_lastName">LAST NAME</label>
+                            <input id='user_lastName' type="text"></input>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label for='user_email'>EMAIL</label>
+                            <input id='user_email' type="email">
+                        </div>
+                        <div class="form-col">
+                            <label for="user_tel">PHONE NUMBER</label>
+                            <input id='user_tel' type="tel">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label for="user_password">PASSWORD</label>
+                            <input type="password" id="user_password">
+                        </div>
+                        <div class="form-col">
+                            <label for="confirm_password">CONFIMR PASSWORD</label>
+                            <input type="text" id="confirm_password">
+                        </div>
+                    </div>
                 </form>
             </div>
-            <div></div>
+            <div class="right-footer">
+                <button class="accountMake">Create account</button>
+                <div class="login">Already have an account? <a href="">Log in</a></div>
+            </div>
         </div>
     </div>
 </body>
